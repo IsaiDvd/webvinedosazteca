@@ -1,0 +1,84 @@
+.navbar {
+    background-color: #721422 !important;
+  }
+  .navbar a {
+    display: block !important;
+    padding: 10px 10px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+}
+.navbar a:hover {
+    background: #500c0c;
+    border-radius: 8px; 
+    padding: 1px 20px; 
+    font-size: 18px; 
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+.title {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+.box-container .box {
+    height: 11rem;
+    width: 15rem;
+    background: #1f1f1f;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 60px;
+    background: #000000;;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #171717;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #721422;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
